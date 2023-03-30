@@ -19,7 +19,7 @@ function App() {
       </header>
       <main>
         {/* <AlltheBooks buy="Acquista🛒" /> */}
-        <BookList />
+        <BookList buy="Acquista🛒" />
       </main>
       <MyFooter />
     </div>
