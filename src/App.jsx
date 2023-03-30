@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import AlltheBooks from "./components/AllTheBooks";
+import BookList from "./components/BookList";
+// import AlltheBooks from "./components/AllTheBooks";
 import MyFooter from "./components/MyFooter";
 import MyNav from "./components/MyNav";
 import Welcome from "./components/Welcome";
@@ -17,7 +18,8 @@ function App() {
         </section>
       </header>
       <main>
-        <AlltheBooks buy="Acquista🛒" />
+        {/* <AlltheBooks buy="Acquista🛒" /> */}
+        <BookList />
       </main>
       <MyFooter />
     </div>
