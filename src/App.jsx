@@ -12,7 +12,7 @@ import Welcome from "./components/Welcome";
 function App() {
   return (
     <Container>
-      <MyNav />
+      <MyNav home="Home🏠" about="About" browse="Browse" />
       <Welcome />
       {/* <AllTheBooks /> */}
       <BookList books={fantasy} />
